@@ -21,7 +21,7 @@ int main() {
     if (workingDays > 26) {
         bonus = (workingDays - 26) * 200000;
     }
-    totalSalary = workingDays * 100000 * salaryCoefficient + allowance + bonus;
+    totalSalary = workingDays * 160000 * salaryCoefficient + allowance + bonus;
     printf("\n--- Result ---\n");
     printf("Allowance: %.0f VND\n", allowance);
     printf("Bonus: %.0f VND\n", bonus);
